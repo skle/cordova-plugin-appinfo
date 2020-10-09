@@ -9,7 +9,8 @@
       "ios",
       "wp8",
       "windows",
-      "browser"
+      "browser",
+      "electron"
     ]
   },
   "repository": {
@@ -25,7 +26,8 @@
     "cordova-android",
     "cordova-ios",
     "cordova-wp8",
-    "cordova-browser"
+    "cordova-browser",
+    "cordova-electron"
   ],
   "author": {
     "name": "Dan Michael O. Heggø",
