@@ -65,17 +65,25 @@
       <runs />
     </js-module>
 
-  <!-- Browser platform -->
+
   </platform>
 
-    <platform name="browser">
-
-      <config-file target="config.xml" parent="/*">
+  <!-- Browser platform -->
+  <platform name="browser">
+    <config-file target="config.xml" parent="/*">
         <feature name="AppInfo">
-          <param name="browser-package" value="AppInfo" />
+            <param name="browser-package" value="AppInfo" />
         </feature>
-      </config-file>
-
+    </config-file>
     </platform>
 
+  <!-- Electron platform -->
+  <platform name="electron">
+    <config-file target="config.xml" parent="/*">
+        <feature name="AppInfo">
+            <param name="electron-package" value="AppInfo" />
+        </feature>
+    </config-file>
+  </platform>
+    
 </plugin>
