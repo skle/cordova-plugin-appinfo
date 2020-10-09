@@ -57,7 +57,7 @@ appInfo.prototype.getIdentifier = function(success, fail){
 
 // Override for browser platform
 
-if (cordova.platformId==='browser') {
+if (cordova.platformId==='browser' || cordova.platformId==='electron') {
     appInfo.prototype.getAppInfo = function (success, fail) {
         success({identifier: '', version: ''})
     }
